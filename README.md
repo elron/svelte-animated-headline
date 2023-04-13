@@ -38,10 +38,10 @@ pnpm i -D svelte-animated-headline
 ### Settings
 | Prop    |   Type	|   Description |	Default |
 |---|---|---|---|
-texts | `array[string]` | asdasdasd| ["text one", "text two", "text three"]
+texts | `array[string]` | The text you want to animated | ["text one", "text two", "text three"]
   | wait | `number` | Wait duration between each item |  1000 
-  | slide | `number` | Duration of the slide effect | 200 
   | fade | `number` |  Duration of the fade/fly effect |  300 
+  | slide | `number` | Duration of the slide effect (this occurs while the text is hidden) | 200 
   | y | `number` | The fly effect. Set it as 0 if you want only the fade effect. (Can be negative as well) | 6 |
 
 ## Examples
