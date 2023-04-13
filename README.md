@@ -86,7 +86,6 @@ texts | `array[string]` | The text you want to animated | ["text one", "text two
 
 
 # Used by
-Used by
 [![ConfettiPage.io](static/confettipage-logo.png)](https://confettipage.io)
 
 ## License
