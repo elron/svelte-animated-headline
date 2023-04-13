@@ -81,7 +81,7 @@ texts | `array[string]` | The text you want to animated | ["text one", "text two
 [MIT license](https://opensource.org/license/mit/)
 
 #### Publishing
-To publish your library to [npm](https://www.npmjs.com):
+(Dev note): To publish this library to [npm](https://www.npmjs.com):
 
 ```bash
 npm publish
