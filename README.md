@@ -1,4 +1,4 @@
-[DEMO](hello.com)
+[DEMO](https://svelte-animated-headline.netlify.app/)
 
 # Svelte Animated Headline
 
