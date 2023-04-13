@@ -1,7 +1,7 @@
 {
 	"name": "svelte-animated-headline",
 	"description": "Add animated headline to your header banner, or anywhere else you want to grab attention in an informative way.",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Elron Bucai",
 	"license": "MIT",
 	"keywords": ["svelte", "sveltejs", "animated", "headline", "animation", "header banner", "changing text"],
