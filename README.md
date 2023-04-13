@@ -2,7 +2,7 @@
 ![npm](https://img.shields.io/npm/dw/@elron/svelte-animated-headline)
 ![npm](https://img.shields.io/npm/v/svelte-animated-headline)
 
-LIVE [DEMO](https://svelte-animated-headline.netlify.app/)
+[DEMO](https://svelte-animated-headline.netlify.app/) | [REPL](https://svelte.dev/repl/1ac4e3559ac445ef984d312d632e6f02?version=3.46.4)
 
 
 # Svelte Animated Headline
