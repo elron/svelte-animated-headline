@@ -27,7 +27,7 @@ pnpm i -D svelte-animated-headline
 ### 1. Import:
 ```html
 <script>
-  import AnimatedHeadline from "svelte-animated-headline";
+  import { AnimatedHeadline } from "svelte-animated-headline";
 </script>
 ```
 
