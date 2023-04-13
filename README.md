@@ -1,58 +1,90 @@
-# create-svelte
+[DEMO](hello.com)
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Svelte Animated Headline
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+Add animated headline to your header banner, or anywhere else you want to grab attention in an informative way.
 
-## Creating a project
+![Svelte Animated Headline Example](svelte-animated-headline.gif)
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Installation
 
 ```bash
-npm run dev
+# pnpm
+pnpm i -D svelte-animated-headline
+```
+> pnpm is used here just as an example, you can use your package of choice
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+
+
+## Usage
+
+### 1. Import:
+```html
+<script>
+  import AnimatedHeadline from "svelte-animated-headline";
+</script>
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
 
-## Building
+### 2. Use:
 
-To build your library:
-
-```bash
-npm run package
+```html
+<AnimatedHeadline texts={["Change this", "to whatever", "you like!"]} />
 ```
 
-To create a production version of your showcase app:
+## Props
 
-```bash
-npm run build
+### Settings
+| Prop    |   Type	|   Description |	Default |
+|---|---|---|---|
+texts | `array[string]` | asdasdasd| ["text one", "text two", "text three"]
+  | wait | `number` | Wait duration between each item |  1000 
+  | slide | `number` | Duration of the slide effect | 200 
+  | fade | `number` |  Duration of the fade/fly effect |  300 
+  | y | `number` | The fly effect. Set it as 0 if you want only the fade effect. (Can be negative as well) | 6 |
+
+## Examples
+
+```html
+<AnimatedHeadline
+    texts={["No problem", "We can handle it", "Sure thing, honey", "Why not"]}
+    y={0}
+    wait={0}
+    slide={1000}
+    fade={500}
+  />
 ```
 
-You can preview the production build with `npm run preview`.
+```html
+<h3>
+  I <AnimatedHeadline
+    texts={[
+      "believe I can fly",
+      "can touch the sky",
+      "think about it every night and day",
+      "spread my wings and fly away",
+    ]}
+    y={-80}
+    fade={2300}
+    slide={1000}
+    wait={500}
+  />... 🎵
+</h3>
+```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> More examples [here](https://github.com/elron/svelte-animated-headline/blob/master/src/routes/%2Bpage.svelte). Or see the [demo](https://svelte-animated-headline.netlify.app/)
 
-## Publishing
 
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
+## License
 
+[MIT license](https://opensource.org/license/mit/)
+
+#### Publishing
 To publish your library to [npm](https://www.npmjs.com):
 
 ```bash
 npm publish
 ```
+
+
