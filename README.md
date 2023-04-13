@@ -82,7 +82,7 @@ texts | `array[string]` | The text you want to animated | ["text one", "text two
 </h3>
 ```
 
-> More examples [here](https://github.com/elron/svelte-animated-headline/blob/master/src/routes/%2Bpage.svelte). Or see the [demo](https://svelte-animated-headline.netlify.app/)
+> More code examples [here](https://github.com/elron/svelte-animated-headline/blob/master/src/routes/%2Bpage.svelte). Or see the [demo](https://svelte-animated-headline.netlify.app/)
 
 
 # Used by
