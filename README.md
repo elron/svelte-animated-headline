@@ -9,7 +9,7 @@ LIVE [DEMO](https://svelte-animated-headline.netlify.app/)
 
 Add animated headline to your header banner, or anywhere else you want to grab attention in an informative way.
 
-![Svelte Animated Headline Example](svelte-animated-headline.gif)
+![Svelte Animated Headline Example](static/svelte-animated-headline.gif)
 
 
 ## Installation
@@ -84,6 +84,10 @@ texts | `array[string]` | The text you want to animated | ["text one", "text two
 
 > More examples [here](https://github.com/elron/svelte-animated-headline/blob/master/src/routes/%2Bpage.svelte). Or see the [demo](https://svelte-animated-headline.netlify.app/)
 
+
+# Used by
+Used by
+[![ConfettiPage.io](static/confettipage-logo.png)](https://confettipage.io)
 
 ## License
 
