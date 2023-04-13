@@ -4,6 +4,7 @@
 	"version": "0.0.2",
 	"author": "Elron Bucai",
 	"license": "MIT",
+	"keywords": ["svelte", "sveltejs", "animated", "headline", "animation", "header banner", "changing text"],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/elron/svelte-animated-headline.git"

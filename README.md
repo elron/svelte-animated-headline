@@ -49,6 +49,10 @@ texts | `array[string]` | The text you want to animated | ["text one", "text two
   | slide | `number` | Duration of the slide effect (this occurs while the text is hidden) | 200 
   | y | `number` | The fly effect. Set it as 0 if you want only the fade effect. (Can be negative as well) | 6 |
 
+> ### Note / Warning
+> Each text will be shown as a single-line. No line break support.
+
+
 ## Examples
 
 ```html
