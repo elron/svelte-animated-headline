@@ -1,5 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6fca70dc-1bdc-46a8-b30e-256e69b3c657/deploy-status)](https://app.netlify.com/sites/svelte-animated-headline/deploys)
-![npm](https://img.shields.io/npm/dw/@elron/svelte-animated-headline)
+![npm](https://img.shields.io/npm/dw/svelte-animated-headline)
 ![npm](https://img.shields.io/npm/v/svelte-animated-headline)
 
 [DEMO](https://svelte-animated-headline.netlify.app/) | [REPL](https://svelte.dev/repl/1ac4e3559ac445ef984d312d632e6f02?version=3.46.4)
