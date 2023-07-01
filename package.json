@@ -1,7 +1,7 @@
 {
 	"name": "svelte-animated-headline",
 	"description": "Add animated headline to your header banner, or anywhere else you want to grab attention in an informative way.",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"author": "Elron Bucai",
 	"license": "MIT",
 	"keywords": [
@@ -42,18 +42,18 @@
 		"!dist/**/*.spec.*"
 	],
 	"peerDependencies": {
-		"svelte": "^3.54.0"
+		"svelte": "^4.0.0"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.20.4",
-		"@sveltejs/package": "^2.0.0",
-		"publint": "^0.1.9",
-		"svelte": "^4.0.0",
-		"svelte-check": "^3.4.3",
-		"tslib": "^2.4.1",
-		"typescript": "^5.0.0",
-		"vite": "^4.2.0"
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"@sveltejs/kit": "^1.21.0",
+		"@sveltejs/package": "^2.1.0",
+		"publint": "^0.1.13",
+		"svelte": "^4.0.1",
+		"svelte-check": "^3.4.4",
+		"tslib": "^2.6.0",
+		"typescript": "^5.1.6",
+		"vite": "^4.3.9"
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
