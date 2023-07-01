@@ -1,10 +1,18 @@
 {
 	"name": "svelte-animated-headline",
 	"description": "Add animated headline to your header banner, or anywhere else you want to grab attention in an informative way.",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"author": "Elron Bucai",
 	"license": "MIT",
-	"keywords": ["svelte", "sveltejs", "animated", "headline", "animation", "header banner", "changing text"],
+	"keywords": [
+		"svelte",
+		"sveltejs",
+		"animated",
+		"headline",
+		"animation",
+		"header banner",
+		"changing text"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/elron/svelte-animated-headline.git"
@@ -38,11 +46,11 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.5.0",
+		"@sveltejs/kit": "^1.20.4",
 		"@sveltejs/package": "^2.0.0",
 		"publint": "^0.1.9",
-		"svelte": "^3.54.0",
-		"svelte-check": "^3.0.1",
+		"svelte": "^4.0.0",
+		"svelte-check": "^3.4.3",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.2.0"

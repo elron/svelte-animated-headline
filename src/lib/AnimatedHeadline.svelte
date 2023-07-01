@@ -34,11 +34,11 @@
 {#each texts as text, i}
   {#if currentIndex === i}
     <span
-      transition:horizontalSlide|local={{ axis: "x", duration: slide, delay: fade }}
+      transition:horizontalSlide={{ axis: "x", duration: slide, delay: fade }}
     >
       <span
-        in:fly|local={{ y: y, duration: fade, delay: slide + fade, easing: cubicOut }}
-        out:fly|local={{ y: 0 - y, duration: fade, delay: 0, easing: cubicIn }}
+        in:fly={{ y: y, duration: fade, delay: slide + fade, easing: cubicOut }}
+        out:fly={{ y: 0 - y, duration: fade, delay: 0, easing: cubicIn }}
       >
         {text}
       </span>
