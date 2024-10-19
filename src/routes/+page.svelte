@@ -52,13 +52,11 @@
     texts={["1", "2", "3", "4", "5", "6", "7", "8"]}
     y={-3}
     wait={20}
-    slide={0}
     fade={150}
   />/8 eggs and <AnimatedHeadline
     texts={["1", "2", "3"]}
     y={-3}
     wait={1500}
-    slide={0}
     fade={150}
   />/3 cups of flower.
 </p>

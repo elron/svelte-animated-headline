@@ -2,18 +2,26 @@
   import { horizontalSlide } from "./transitions";
   import { cubicOut, cubicIn } from "svelte/easing";
   import { fly } from "svelte/transition";
-  import { onMount } from "svelte";
 
-  export let texts = ["text one", "text two", "text three"];
-  export let slide = 200;
-  export let fade = 300;
-  export let wait = 1000;
-  $: delay = fade + slide + fade + wait;
-  export let y = 6;
+  interface Props {
+    texts?: string[];
+    slide?: number;
+    fade?: number;
+    wait?: number;
+    y?: number;
+  }
 
-  let currentIndex = 0;
+  let {
+    texts = ["text one", "text two", "text three"],
+    slide = 200,
+    fade = 300,
+    wait = 1000,
+    y = 6
+  }: Props = $props();
 
-  let timeout: number | undefined;
+  let currentIndex = $state(0);
+
+  let timeout: string | number | NodeJS.Timeout | undefined;
 
   const next = () => {
     timeout = setTimeout(() => {
@@ -23,12 +31,13 @@
     }, delay);
   };
 
-  onMount(() => {
+  $effect(() => {
     next();
     return () => {
       clearTimeout(timeout);
     };
   });
+  let delay = $derived(fade + slide + fade + wait);
 </script>
 
 {#each texts as text, i}
