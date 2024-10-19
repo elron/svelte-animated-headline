@@ -16,10 +16,11 @@ Add animated headline to your header banner, or anywhere else you want to grab a
 ## Installation
 
 ```bash
-# pnpm
-pnpm i -D svelte-animated-headline
+# bun
+bun i -D svelte-animated-headline // Svelte 5
+bun i -D svelte-animated-headline@1.0.7 // Svelte 4
 ```
-> pnpm is used here just as an example, you can use your package of choice
+> bun is used here just as an example, you can use your package of choice (pnpm, npm, yarn)
 
 
 
